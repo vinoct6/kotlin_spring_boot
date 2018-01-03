@@ -43,5 +43,6 @@ dependencies {
 	compile("org.jetbrains.kotlin:kotlin-stdlib-jre8")
 	compile("org.jetbrains.kotlin:kotlin-reflect")
 	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.0.0.M7'
+	compile('org.springframework.boot:spring-boot-starter-webflux')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
