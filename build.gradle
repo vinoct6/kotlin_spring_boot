@@ -39,10 +39,12 @@ repositories {
 
 
 dependencies {
-	compile('org.springframework.boot:spring-boot-starter')
-	compile("org.jetbrains.kotlin:kotlin-stdlib-jre8")
-	compile("org.jetbrains.kotlin:kotlin-reflect")
-	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.0.0.M7'
+	compile('org.springframework.boot:spring-boot-starter-actuator')
 	compile('org.springframework.boot:spring-boot-starter-webflux')
+	compile("org.springframework.boot:spring-boot-starter-hateoas")
+	compile("org.jetbrains.kotlin:kotlin-stdlib")
+	compile("org.jetbrains.kotlin:kotlin-reflect")
+	compile group: 'com.fasterxml.jackson.module', name: 'jackson-module-kotlin', version: '2.7.9'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile('io.projectreactor:reactor-test')
 }

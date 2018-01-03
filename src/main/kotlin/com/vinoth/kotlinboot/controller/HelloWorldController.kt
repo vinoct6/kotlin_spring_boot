@@ -15,6 +15,4 @@ class HelloWorldController {
     @GetMapping("/hello/{name}")
     fun helloWorld(@PathVariable("name") name: String) = "Hello $name"
 
-    @GetMapping("/employees")
-    fun getEmployees() = employeeService.getEmployees()
 }

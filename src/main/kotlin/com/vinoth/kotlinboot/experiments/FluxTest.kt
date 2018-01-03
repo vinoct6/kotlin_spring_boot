@@ -1,3 +1,4 @@
+/*
 package com.vinoth.kotlinboot.experiments
 
 
@@ -29,6 +30,6 @@ fun main(args: Array<String>) {
 
     nameFlux.
             flatMap { it }
-            .subscribe { println(it.toUpperCase())}
+            .subscribe { println(it.toUpperCase()) }
 
-}
+}*/
